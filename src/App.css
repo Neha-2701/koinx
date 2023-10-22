@@ -1,38 +1,135 @@
-.App {
-  text-align: center;
+.container{
+  width: 60%;
+  border: 2px solid black;
+  /* padding: 10%; */
+  /* color: grey; */
+  /* font-style: italic; */
+  font-size: 0.8rem;
+  max-width: 600px;
+  padding: 5%;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+  border-radius: 10px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.fieldd{
+ 
+  border: 2px solid black;
+  /* width: 700px;  */
+  display: flex;
+  justify-content: space-between;
+  /* height: 50%; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form_container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.form_control {
+  display: flex;
+  flex-direction: column;
+}
+
+.firstRow{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+}
+
+.firstField{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-items: center;
+}
+
+.First{
+  display: flex;
+}
+
+.firstRow{
+  display: flex;
+}
+
+.control{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 10px; */
+}
+
+.taxRate Typography{
+  font-size: 0.5rem;
+  position: relative;
+  top: 5px;
+}
+
+.rowFirst{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+
+.first{
+  display: flex;
+  align-items: center;
+  
+}
+.first select{
+  width: 80%;
+}
+.net_capital{
+  border-radius: 5px;
+  background-color: #EBF9F4;
+  align-items: center;
+}
+
+.tax_pay{
+  border-radius: 5px;
+  background-color:  #EBF2FF;
+  align-items: center;
+}
+
+.tax_pay h2{
+  margin-bottom: 0;
+}
+
+.net_capital h2{
+  margin-bottom: 0;
+}
+.checkBox .MuiSvgIcon-root{
+  width: 10vw;
+  height: 30px;
+  font-size: 5rem; 
+}
+
+.last_row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.control Typography{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
