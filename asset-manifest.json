@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/koinx/static/css/main.d128df1c.css",
+    "main.js": "/koinx/static/js/main.0c62e7ef.js",
+    "static/js/787.9b2aa232.chunk.js": "/koinx/static/js/787.9b2aa232.chunk.js",
+    "static/media/logo.svg": "/koinx/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/koinx/index.html",
+    "main.d128df1c.css.map": "/koinx/static/css/main.d128df1c.css.map",
+    "main.0c62e7ef.js.map": "/koinx/static/js/main.0c62e7ef.js.map",
+    "787.9b2aa232.chunk.js.map": "/koinx/static/js/787.9b2aa232.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d128df1c.css",
+    "static/js/main.0c62e7ef.js"
+  ]
+}
